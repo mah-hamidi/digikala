@@ -1,0 +1,88 @@
+
+[lang="fa-Ir"] {direction: rtl !important;}
+:root{
+    --search-field:rgba(222, 224, 216, 0.993);
+    --basic-icon-color: rgb(187, 187, 187);
+    --header-menu-link: rgb(49, 45, 45);
+    --header-menu-active: #019b46;
+    --header-menu-visited: #16f0e5;
+    --header-menu-hover: #f1560e;
+
+}
+
+.rtl 
+{direction: rtl;}
+
+.ltr
+ {direction: ltr;}
+
+.list-style-none
+{ list-style:none;}
+
+header img{width: 100%;}
+
+.search-field
+{background-color: var(--search-field); }
+
+header a{
+    color: var(--header-menu-link);
+}
+header a:hover{
+    color: var(--header-menu-link);
+}
+#main-menu>ul>li{
+    padding-left: 1rem;
+}
+.pos-md-relative{
+    position: relative;
+}
+.pos-md-absolute{
+    position: absolute;
+    width: 98%;
+    top: 26px;
+    left: 15px;
+}
+.sub-sub-menu{
+    position: absolute;
+    width: 91%;
+    top: 0px;
+    right: 12%;
+}
+
+.sub-menu{
+    display: none;
+}
+.sub-menu li {
+    line-height: 3rem;
+}
+#main-menu>ul>li:hover>ul.sub-menu{
+    display: block;
+}
+#main-menu>ul>li:hover>ul.sub-menu>li>.sub-sub-menu{
+    display: none;
+}
+#main-menu>ul>li:hover>ul.sub-menu>li:hover>.sub-sub-menu{
+    display: flex;
+}
+
+#main-menu>ul>li:hover>ul.sub-menu>li:first-child>.sub-sub-menu{
+    display: flex;
+}
+/*main*/
+.mine-rounded{
+    border-radius: 11px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-cont-flu{
+    background-color: #f1280e;
+}
+
+.mine-border-color{
+    border-color: azure;
+}
+
